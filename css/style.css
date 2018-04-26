@@ -105,6 +105,7 @@ h6 {
     font-size: 14px;
     display: inline-block;
     text-transform: capitalize;
+    letter-spacing: 2px;
 }
 
 .border-button {
@@ -273,6 +274,7 @@ h6 {
     -webkit-transition: all .5s;
             transition: all .5s;
     display: none;
+    letter-spacing: 2px;
 }
 
 .button-top:hover {
@@ -297,7 +299,7 @@ h6 {
 .navbar .navbar-nav .nav-item .nav-link {
     color: #EEE;
     padding: 0;
-    margin: 15px 20px;
+    margin: 20px 20px;
     text-transform: capitalize;
     font-size: 15px;
 
@@ -321,7 +323,7 @@ h6 {
 .nav-scroll {
     background: #4863A0;
     border-bottom: 1px solid rgba(12, 12, 12, 0.04);
-    padding: 15px 0;
+    padding: 10px 0;
     position: fixed;
     top: 0;
     left: 0;
@@ -336,7 +338,7 @@ h6 {
     color: #222;
 }
 .nav-scroll .navbar-nav .nav-item .nav-link {
-    color: #111;
+    color: white;
 }
 
 .nav-scroll .navbar-toggler .icon-bar {
@@ -1257,6 +1259,7 @@ h6 {
     border: 1px solid #4863A0;
     border-radius: 3px;
     cursor: pointer;
+    letter-spacing: 1px;
 }
 
 .contact .form input[type="submit"]:hover {
